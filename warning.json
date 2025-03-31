@@ -1,0 +1,93 @@
+{
+  "apps": [
+    {
+      "id": 1,
+      "title": "BULLY",
+      "developer": "Kanye West",
+      "gradientFrom": "#333333",
+      "gradientTo": "#111111",
+      "isVideo": true,
+      "description": "A revolutionary music production app designed by Kanye West. Features include beat making, sample manipulation, and AI-assisted composition.",
+      "price": "Free",
+      "category": "Music",
+      "releaseDate": "2023"
+    },
+    {
+      "id": 2,
+      "title": "Photoshop XXX",
+      "developer": "Adobe Inc.",
+      "gradientFrom": "#001E36",
+      "gradientTo": "#00243F",
+      "description": "The industry-standard image editing software used by professionals worldwide for photo editing, graphic design, and digital art creation.",
+      "price": "$20.99/month",
+      "category": "Photo & Video",
+      "releaseDate": "2022"
+    },
+    {
+      "id": 3,
+      "title": "Final Cut Pro",
+      "developer": "Apple Inc.",
+      "gradientFrom": "#9747FF",
+      "gradientTo": "#6B24B2",
+      "description": "Professional video editing software with powerful tools for creating, editing and producing high-quality videos and films.",
+      "price": "$299.99",
+      "category": "Photo & Video",
+      "releaseDate": "2022"
+    },
+    {
+      "id": 4,
+      "title": "Figma",
+      "developer": "Figma Inc.",
+      "gradientFrom": "#FF3366",
+      "gradientTo": "#A63446",
+      "description": "Collaborative interface design tool that enables multiple designers to work together in real-time on UI/UX projects.",
+      "price": "Free (Pro: $12/month)",
+      "category": "Design",
+      "releaseDate": "2021"
+    },
+    {
+      "id": 5,
+      "title": "VSCode",
+      "developer": "Microsoft",
+      "gradientFrom": "#007ACC",
+      "gradientTo": "#0062A3",
+      "description": "Lightweight but powerful source code editor with built-in support for JavaScript, TypeScript and Node.js and a rich ecosystem of extensions.",
+      "price": "Free",
+      "category": "Developer Tools",
+      "releaseDate": "2022"
+    },
+    {
+      "id": 6,
+      "title": "Notion",
+      "developer": "Notion Labs",
+      "gradientFrom": "#000000",
+      "gradientTo": "#2D2D2D",
+      "description": "All-in-one workspace for notes, tasks, wikis, and databases. Customize your workflow and collaborate with your team seamlessly.",
+      "price": "Free (Pro: $8/month)",
+      "category": "Productivity",
+      "releaseDate": "2022"
+    },
+    {
+      "id": 7,
+      "title": "Slack",
+      "developer": "Slack Technologies",
+      "gradientFrom": "#4A154B",
+      "gradientTo": "#340C37",
+      "description": "Business communication platform offering many IRC-style features, including persistent chat rooms, private groups, and direct messaging.",
+      "price": "Free (Pro: $8/month)",
+      "category": "Business",
+      "releaseDate": "2022"
+    },
+    {
+      "id": 8,
+      "title": "Spotify",
+      "developer": "Spotify AB",
+      "gradientFrom": "#1DB954",
+      "gradientTo": "#168D40",
+      "description": "Digital music streaming service that gives you access to millions of songs, podcasts and videos from artists all over the world.",
+      "price": "Free (Premium: $9.99/month)",
+      "category": "Music",
+      "releaseDate": "2022"
+    }
+  ]
+}
