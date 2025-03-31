@@ -1,5 +1,5 @@
 {
-  "title": "Draft Collection",
+  "title": "Collection*",
   "description": "A curated list of apps, tools, and documentation for developers.",
   "owner": "Jaseunda",
   "email": "hello@jaseunda.com",
@@ -23,44 +23,56 @@
       "owner": "microsoft",
       "gradientFrom": "#007ACC",
       "gradientTo": "#0055AA",
-      "description": "A powerful code editor for developers.",
+      "description": "Lightweight but powerful code editor.",
       "price": "Free",
       "category": "Developer Tools",
       "releaseDate": "2016",
       "hasDownloadButton": true,
-      "downloadUrl": "https://code.visualstudio.com/Download"
+      "downloadUrl": "https://code.visualstudio.com/Download",
+      "customButton": {
+        "text": "Learn More",
+        "url": "https://code.visualstudio.com"
+      }
     },
     {
       "id": 2,
-      "title": "Docker",
-      "type": "app",
-      "developer": "Docker, Inc.",
-      "repo": "https://github.com/docker/docker",
-      "owner": "docker",
-      "gradientFrom": "#0db7ed",
-      "gradientTo": "#2c3e50",
-      "description": "An open-source platform to automate the deployment, scaling, and management of applications.",
-      "price": "Free",
-      "category": "Containerization",
-      "releaseDate": "2013",
-      "hasDownloadButton": true,
-      "downloadUrl": "https://www.docker.com/get-started"
-    },
-    {
-      "id": 3,
       "title": "Node.js",
       "type": "app",
-      "developer": "OpenJS Foundation",
+      "developer": "Node.js Foundation",
       "repo": "https://github.com/nodejs/node",
       "owner": "nodejs",
       "gradientFrom": "#8CC84B",
-      "gradientTo": "#6DAF2C",
+      "gradientTo": "#6F6F6F",
       "description": "JavaScript runtime built on Chrome's V8 JavaScript engine.",
       "price": "Free",
       "category": "Programming Language",
       "releaseDate": "2009",
       "hasDownloadButton": true,
-      "downloadUrl": "https://nodejs.org/en/download/"
+      "downloadUrl": "https://nodejs.org/en/download/",
+      "customButton": {
+        "text": "Documentation",
+        "url": "https://nodejs.org/en/docs/"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Docker",
+      "type": "app",
+      "developer": "Docker, Inc.",
+      "repo": "https://github.com/docker/docker",
+      "owner": "docker",
+      "gradientFrom": "#2496ED",
+      "gradientTo": "#1E74B1",
+      "description": "Platform for developing, shipping, and running applications.",
+      "price": "Free",
+      "category": "Containerization",
+      "releaseDate": "2013",
+      "hasDownloadButton": true,
+      "downloadUrl": "https://www.docker.com/products/docker-desktop",
+      "customButton": {
+        "text": "Try Docker",
+        "url": "https://www.docker.com/get-started"
+      }
     },
     {
       "id": 4,
@@ -70,53 +82,66 @@
       "repo": "https://github.com/kubernetes/kubernetes",
       "owner": "kubernetes",
       "gradientFrom": "#326CE5",
-      "gradientTo": "#1C4D8A",
-      "description": "Open-source system for automating the deployment, scaling, and management of containerized applications.",
+      "gradientTo": "#1D58D4",
+      "description": "Open-source system for automating deployment, scaling, and management of containerized applications.",
       "price": "Free",
       "category": "Containerization",
       "releaseDate": "2014",
       "hasDownloadButton": true,
-      "downloadUrl": "https://kubernetes.io/docs/setup/"
+      "downloadUrl": "https://kubernetes.io/docs/setup/",
+      "customButton": {
+        "text": "Official Docs",
+        "url": "https://kubernetes.io/docs/"
+      }
     },
     {
       "id": 5,
-      "title": "Git",
-      "type": "app",
-      "developer": "Git SCM",
-      "repo": "https://github.com/git/git",
-      "owner": "git",
-      "gradientFrom": "#F05032",
-      "gradientTo": "#D42D1B",
-      "description": "A distributed version control system.",
-      "price": "Free",
-      "category": "Developer Tools",
-      "releaseDate": "2005",
-      "hasDownloadButton": true,
-      "downloadUrl": "https://git-scm.com/downloads"
+      "title": "Markdown Guide",
+      "type": "docs",
+      "gradientFrom": "#333333",
+      "gradientTo": "#111111",
+      "description": "# Markdown Guide\n\nA simple guide to writing in Markdown.",
+      "category": "Documentation"
     },
     {
       "id": 6,
-      "title": "Express.js",
+      "title": "React",
       "type": "app",
-      "developer": "TJ Holowaychuk",
-      "repo": "https://github.com/expressjs/express",
-      "owner": "expressjs",
-      "gradientFrom": "#000000",
-      "gradientTo": "#333333",
-      "description": "Fast, unopinionated, minimalist web framework for Node.js.",
+      "developer": "Facebook",
+      "repo": "https://github.com/facebook/react",
+      "owner": "facebook",
+      "gradientFrom": "#61DAFB",
+      "gradientTo": "#282C34",
+      "description": "A JavaScript library for building user interfaces.",
       "price": "Free",
-      "category": "Web Framework",
-      "releaseDate": "2010",
+      "category": "Developer Tools",
+      "releaseDate": "2013",
       "hasDownloadButton": true,
-      "downloadUrl": "https://expressjs.com/en/starter/installing.html"
+      "downloadUrl": "https://reactjs.org/docs/getting-started.html",
+      "customButton": {
+        "text": "Learn React",
+        "url": "https://reactjs.org"
+      }
     },
-{
-  "id": 7,
-  "title": "Getting Started with Draft Collection",
-  "type": "docs",
-  "gradientFrom": "#444444",
-  "gradientTo": "#222222",
-  "description": "# Welcome to Draft Collection\n\nThis documentation explains how to use the Draft Collection. The collection contains apps, tools, and documentation for developers. Here you will find resources and utilities to enhance your workflow. All entries are categorized based on their type, and you can find detailed descriptions, installation guides, and links to repositories and downloads.\n\n## How to Use\n- Use the `app` entries for downloading software.\n- Refer to `docs` entries for detailed documentation.\n\nFeel free to explore and contribute!\n\n---\n\n### Developer Guide: Draft Collection JSON Format\n\n**Overview**\n\nThe Draft Collection JSON format is used to store structured metadata about applications, developer tools, and documentation. This guide explains the format and how to add new entries correctly.\n\n### JSON Structure\n\n**Root Level Attributes**\n\n| Key              | Type   | Description |\n|------------------|--------|-------------|\n| title            | string | The title of the collection. |\n| description      | string | A short description of the collection. |\n| owner            | string | The name of the collection owner. |\n| email            | string | Contact email of the owner. |\n| repo             | string | GitHub repository URL. |\n| backgroundGradient | object | Defines UI gradient colors (from, to). |\n| meta             | object | Metadata about the repository (open-source, license, version, etc.). |\n| apps             | array  | List of applications, tools, and documentation. |\n\n### Item Structure\n\nEach item inside `apps` follows this structure:\n\n```json\n{\n  \"id\": 1,\n  \"title\": \"App Name\",\n  \"type\": \"app\",\n  \"developer\": \"Developer Name\",\n  \"repo\": \"https://github.com/developer/repo\",\n  \"owner\": \"developer\",\n  \"gradientFrom\": \"#333333\",\n  \"gradientTo\": \"#111111\",\n  \"description\": \"Short description of the app.\",\n  \"price\": \"Free\",\n  \"category\": \"Category Name\",\n  \"releaseDate\": \"YYYY\",\n  \"hasDownloadButton\": true,\n  \"hasVisitSiteButton\": true,\n  \"downloadUrl\": \"https://example.com/download\"\n}\n```\n\n### Required Fields\n- `id`: Unique identifier.\n- `title`: Name of the app/tool/documentation.\n- `type`: Can be `app`, `developer tool`, `runtime`, `OS`, `containerization`, `programming language`, or `docs`.\n- `developer`: Creator or developer of the entry.\n- `repo`: GitHub repository link.\n- `owner`: GitHub username or organization owning the repo.\n- `description`: A brief summary.\n- `gradientFrom`, `gradientTo`: UI gradient colors.\n\n### Optional Fields\n- `price`: If applicable (e.g., Free, $9.99, Subscription).\n- `category`: Defines the type of application (e.g., AI Tools, Developer Tools).\n- `releaseDate`: Year of release.\n- `hasDownloadButton`: `true` if download is available.\n- `hasVisitSiteButton`: `true` if there’s an external website.\n- `downloadUrl`: URL for downloading the app (if `hasDownloadButton` is true).\n\n### Adding Documentation Entries\n\nTo add a documentation entry, use the following format:\n\n```json\n{\n  \"id\": 10,\n  \"title\": \"Getting Started\",\n  \"type\": \"docs\",\n  \"gradientFrom\": \"#444444\",\n  \"gradientTo\": \"#222222\",\n  \"description\": \"# Welcome to Draft Collection\\n\\nThis is a markdown-formatted guide explaining how to use the collection.\",\n  \"category\": \"Documentation\"\n}\n```\n\n- `type`: `docs` must be used for documentation.\n- No buttons (`hasDownloadButton`, `hasVisitSiteButton`) should be present.\n- Markdown is supported inside the `description` field. **Remember, the description must be in Markdown format**.\n\n### Example JSON with Multiple Entries\n\n```json\n{\n  \"title\": \"Draft Collection\",\n  \"description\": \"A curated list of apps and tools for developers.\",\n  \"owner\": \"Jaseunda\",\n  \"email\": \"hello@jaseunda.com\",\n  \"repo\": \"https://github.com/Jaseunda/draftsource\",\n  \"backgroundGradient\": {\n    \"from\": \"#121212\",\n    \"to\": \"#1E1E1E\"\n  },\n  \"apps\": [\n    {\n      \"id\": 1,\n      \"title\": \"VS Code\",\n      \"type\": \"app\",\n      \"developer\": \"Microsoft\",\n      \"repo\": \"https://github.com/microsoft/vscode\",\n      \"owner\": \"microsoft\",\n      \"gradientFrom\": \"#007ACC\",\n      \"gradientTo\": \"#0055AA\",\n      \"description\": \"Lightweight but powerful code editor.\",\n      \"price\": \"Free\",\n      \"category\": \"Developer Tools\",\n      \"releaseDate\": \"2016\",\n      \"hasDownloadButton\": true,\n      \"downloadUrl\": \"https://code.visualstudio.com/Download\"\n    },\n    {\n      \"id\": 2,\n      \"title\": \"Getting Started\",\n      \"type\": \"docs\",\n      \"gradientFrom\": \"#444444\",\n      \"gradientTo\": \"#222222\",\n      \"description\": \"# Welcome to Draft Collection\\n\\nThis is a markdown-formatted guide explaining how to use the collection.\",\n      \"category\": \"Documentation\"\n    }\n  ]\n}\n```\n\n### How It Displays\n\nThe JSON data is rendered into a UI that visually categorizes applications and documentation. The display format typically follows these guidelines:\n\n1. **Gradient Backgrounds**\n   - Each entry uses the `gradientFrom` and `gradientTo` colors for UI consistency.\n\n2. **App Listings**\n   - Apps and Tools are displayed in cards with:\n     - Title\n     - Description\n     - Category\n     - Developer Name\n     - Buttons for Download and Visit Site (if applicable)\n     - Download URL is provided for the download button.\n\n3. **Documentation Display**\n   - Docs are shown as formatted markdown text within a dedicated section.\n   - No download or visit buttons are displayed.\n\n4. **Sorting & Filtering**\n   - Items are grouped based on their category (e.g., AI Tools, Developer Tools, Docs).\n   - Users can filter or search for specific apps/docs.\n\n### Best Practices\n- Always use unique IDs.\n- Ensure type is correctly assigned.\n- Use correct color gradients to maintain visual consistency.\n- For documentation (`docs` type), ensure the description is properly formatted in Markdown.\n\n### Final Notes\nThis format ensures consistency across all applications, tools, and documentation entries. If contributing, always validate your JSON before submission."
-}
+    {
+      "id": 7,
+      "title": "Vue.js",
+      "type": "app",
+      "developer": "Evan You",
+      "repo": "https://github.com/vuejs/vue",
+      "owner": "vuejs",
+      "gradientFrom": "#42b883",
+      "gradientTo": "#35495e",
+      "description": "Progressive JavaScript framework for building UIs.",
+      "price": "Free",
+      "category": "Developer Tools",
+      "releaseDate": "2014",
+      "hasDownloadButton": true,
+      "downloadUrl": "https://vuejs.org/v2/guide/",
+      "customButton": {
+        "text": "Vue Docs",
+        "url": "https://vuejs.org"
+      }
+    }
   ]
 }
